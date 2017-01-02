@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B92646B1E1AAA8E0033486A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B92646A1E1AAA8E0033486A /* AppDelegate.swift */; };
+		2B92646D1E1AAA8E0033486A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B92646C1E1AAA8E0033486A /* ViewController.swift */; };
+		2B9264701E1AAA8E0033486A /* Tijori.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B92646E1E1AAA8E0033486A /* Tijori.xcdatamodeld */; };
+		2B9264721E1AAA8E0033486A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9264711E1AAA8E0033486A /* Assets.xcassets */; };
+		2B9264751E1AAA8E0033486A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9264731E1AAA8E0033486A /* Main.storyboard */; };
+		2B9264801E1AAA8E0033486A /* TijoriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B92647F1E1AAA8E0033486A /* TijoriTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B92647C1E1AAA8E0033486A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B92645F1E1AAA8E0033486A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B9264661E1AAA8E0033486A;
+			remoteInfo = Tijori;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B9264671E1AAA8E0033486A /* Tijori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tijori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B92646A1E1AAA8E0033486A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B92646C1E1AAA8E0033486A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B92646F1E1AAA8E0033486A /* Tijori.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tijori.xcdatamodel; sourceTree = "<group>"; };
+		2B9264711E1AAA8E0033486A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B9264741E1AAA8E0033486A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B9264761E1AAA8E0033486A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B92647B1E1AAA8E0033486A /* TijoriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TijoriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B92647F1E1AAA8E0033486A /* TijoriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TijoriTests.swift; sourceTree = "<group>"; };
+		2B9264811E1AAA8E0033486A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B9264641E1AAA8E0033486A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9264781E1AAA8E0033486A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B92645E1E1AAA8E0033486A = {
+			isa = PBXGroup;
+			children = (
+				2B9264691E1AAA8E0033486A /* Tijori */,
+				2B92647E1E1AAA8E0033486A /* TijoriTests */,
+				2B9264681E1AAA8E0033486A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B9264681E1AAA8E0033486A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B9264671E1AAA8E0033486A /* Tijori.app */,
+				2B92647B1E1AAA8E0033486A /* TijoriTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B9264691E1AAA8E0033486A /* Tijori */ = {
+			isa = PBXGroup;
+			children = (
+				2B92646A1E1AAA8E0033486A /* AppDelegate.swift */,
+				2B92646C1E1AAA8E0033486A /* ViewController.swift */,
+				2B9264711E1AAA8E0033486A /* Assets.xcassets */,
+				2B9264731E1AAA8E0033486A /* Main.storyboard */,
+				2B9264761E1AAA8E0033486A /* Info.plist */,
+				2B92646E1E1AAA8E0033486A /* Tijori.xcdatamodeld */,
+			);
+			path = Tijori;
+			sourceTree = "<group>";
+		};
+		2B92647E1E1AAA8E0033486A /* TijoriTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B92647F1E1AAA8E0033486A /* TijoriTests.swift */,
+				2B9264811E1AAA8E0033486A /* Info.plist */,
+			);
+			path = TijoriTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B9264661E1AAA8E0033486A /* Tijori */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9264841E1AAA8E0033486A /* Build configuration list for PBXNativeTarget "Tijori" */;
+			buildPhases = (
+				2B9264631E1AAA8E0033486A /* Sources */,
+				2B9264641E1AAA8E0033486A /* Frameworks */,
+				2B9264651E1AAA8E0033486A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tijori;
+			productName = Tijori;
+			productReference = 2B9264671E1AAA8E0033486A /* Tijori.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B92647A1E1AAA8E0033486A /* TijoriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B9264871E1AAA8E0033486A /* Build configuration list for PBXNativeTarget "TijoriTests" */;
+			buildPhases = (
+				2B9264771E1AAA8E0033486A /* Sources */,
+				2B9264781E1AAA8E0033486A /* Frameworks */,
+				2B9264791E1AAA8E0033486A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B92647D1E1AAA8E0033486A /* PBXTargetDependency */,
+			);
+			name = TijoriTests;
+			productName = TijoriTests;
+			productReference = 2B92647B1E1AAA8E0033486A /* TijoriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B92645F1E1AAA8E0033486A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Noop;
+				TargetAttributes = {
+					2B9264661E1AAA8E0033486A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U8NB2YS4PU;
+						ProvisioningStyle = Automatic;
+					};
+					2B92647A1E1AAA8E0033486A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U8NB2YS4PU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B9264661E1AAA8E0033486A;
+					};
+				};
+			};
+			buildConfigurationList = 2B9264621E1AAA8E0033486A /* Build configuration list for PBXProject "Tijori" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B92645E1E1AAA8E0033486A;
+			productRefGroup = 2B9264681E1AAA8E0033486A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B9264661E1AAA8E0033486A /* Tijori */,
+				2B92647A1E1AAA8E0033486A /* TijoriTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B9264651E1AAA8E0033486A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9264721E1AAA8E0033486A /* Assets.xcassets in Resources */,
+				2B9264751E1AAA8E0033486A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9264791E1AAA8E0033486A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B9264631E1AAA8E0033486A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B92646D1E1AAA8E0033486A /* ViewController.swift in Sources */,
+				2B92646B1E1AAA8E0033486A /* AppDelegate.swift in Sources */,
+				2B9264701E1AAA8E0033486A /* Tijori.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9264771E1AAA8E0033486A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9264801E1AAA8E0033486A /* TijoriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B92647D1E1AAA8E0033486A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B9264661E1AAA8E0033486A /* Tijori */;
+			targetProxy = 2B92647C1E1AAA8E0033486A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B9264731E1AAA8E0033486A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B9264741E1AAA8E0033486A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B9264821E1AAA8E0033486A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B9264831E1AAA8E0033486A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		2B9264851E1AAA8E0033486A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U8NB2YS4PU;
+				INFOPLIST_FILE = Tijori/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pw.noop.zen.Tijori;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B9264861E1AAA8E0033486A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U8NB2YS4PU;
+				INFOPLIST_FILE = Tijori/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pw.noop.zen.Tijori;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B9264881E1AAA8E0033486A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U8NB2YS4PU;
+				INFOPLIST_FILE = TijoriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pw.noop.zen.TijoriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tijori.app/Contents/MacOS/Tijori";
+			};
+			name = Debug;
+		};
+		2B9264891E1AAA8E0033486A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U8NB2YS4PU;
+				INFOPLIST_FILE = TijoriTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pw.noop.zen.TijoriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tijori.app/Contents/MacOS/Tijori";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B9264621E1AAA8E0033486A /* Build configuration list for PBXProject "Tijori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9264821E1AAA8E0033486A /* Debug */,
+				2B9264831E1AAA8E0033486A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9264841E1AAA8E0033486A /* Build configuration list for PBXNativeTarget "Tijori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9264851E1AAA8E0033486A /* Debug */,
+				2B9264861E1AAA8E0033486A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B9264871E1AAA8E0033486A /* Build configuration list for PBXNativeTarget "TijoriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9264881E1AAA8E0033486A /* Debug */,
+				2B9264891E1AAA8E0033486A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B92646E1E1AAA8E0033486A /* Tijori.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B92646F1E1AAA8E0033486A /* Tijori.xcdatamodel */,
+			);
+			currentVersion = 2B92646F1E1AAA8E0033486A /* Tijori.xcdatamodel */;
+			path = Tijori.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B92645F1E1AAA8E0033486A /* Project object */;
+}
