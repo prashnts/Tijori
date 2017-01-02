@@ -140,6 +140,7 @@
 		2B92645F1E1AAA8E0033486A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PS;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Noop;
@@ -330,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U8NB2YS4PU;
 				INFOPLIST_FILE = Tijori/Info.plist;
@@ -344,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = U8NB2YS4PU;
 				INFOPLIST_FILE = Tijori/Info.plist;
