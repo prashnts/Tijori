@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode8.2
-script:
-  - xcodebuild test -workspace Tijori.xcworkspace -scheme Tijori
+xcode_workspace: Tijori.xcworkspace
+xcode_scheme: Tijori
 notifications:
   email: false
